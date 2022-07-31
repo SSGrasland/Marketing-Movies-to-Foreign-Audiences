@@ -17,6 +17,9 @@ Microsoft has just built a brand new studio and is looking to make a new movie, 
 
 Data from an IMDb SQLite database and a CSV database from Box Office Mojo were used. The IMDb SQLite database contained 8 tables (persons, principals, known_for, directors, writers, movie_basics, movie_ratings, and movie_akas). The ‘movie_basics’ table was used for analysis and it contained six columns (movie_id, primary_title, original_title, start_year, runtime_minutes, and genres) and 146,144 entries. The Box Office Mojo data consisted of five columns (title, studio, domestic_gross, foreign_gross, and year) and contained 3387 entries. This data is all generated from IMDb which is the leading resource for entertainment industry professionals and a subsidiary of Amazon, consisting of over 10 million titles and over 11 million person records. Box Office Mojo was bought by IMDb in 2008 and is currently owned by Amazon. IMDb is a website that tracks box-office data for franchises, genres, actors, filmmakers, distributors, budgets, and brands, in addition to providing profiles, reviews, and summaries of entertainment series, movies, performers, and members of the production crew. These sources were used to look at quantifiable data, such as domestic and foreign movie revenues, as well as categorical data like genre and production studio. The main limitation with this data was that it only included information from the years 2010 to 2018. 
 
+### Movie Data ERD
+![movie data ERD](movie_data_erd.jpeg)
+
 ***
 
 ## Methods
@@ -40,6 +43,8 @@ The merged dataset from IMDb and Box Office Mojo called ‘df’ was used to con
 
 Microsoft just opened a new studio and wants to know what kind of movie they should produce in order to generate max revenue. The baseline research showed that on average from 2010 to 2018, foreign revenue accounted for 60.8% of total revenue. The trendline plotted had a value of -0.02333x + 107.7, showing that foreign revenue values have remained consistent over time. Hence, the data shows that producing a movie that performs well with foreign audiences is a good strategy to generate max revenue. 
 
+[domesticvsforeign](domesticvforeigngraph.png)
+
 The top three foreign grossing genres were ‘adventure’, ‘action’, and ‘comedy’— respectively accounting for 19.6%, 18.1%, and 13% of top performing movies in foreign markets. The top three foreign grossing studios were ‘20th Century Fox Studios’, ‘BV Animation Studios’, and ‘Universal Animation Studios,’ respectively accounting for 14.7%, 13%, and 11.9% of production for top performing movies in foreign markets. The top three performing movies in foreign markets from 2010 to 2018 were: 
 
 1. “Avengers: Age of Ultron” produced by BV Animation Studios 
@@ -51,8 +56,9 @@ The top three foreign grossing genres were ‘adventure’, ‘action’, and �
 Results are corroborated by the top three performing movies which were all produced by one of the top three performing studios in foreign markets. And all three top performing movies fell into a top performing genre category in foreign markets. Hence, the data shows that this model could with confidence benefit Microsoft Studios if implemented. 
 
 
-### Visual 1
-![graph1](top performing genre.png)
+
+
+
 
 ## Conclusions
 
