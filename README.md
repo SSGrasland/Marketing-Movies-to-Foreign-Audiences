@@ -54,7 +54,7 @@ Results are corroborated by the top three performing movies which were all produ
 Here is an example of how to embed images from your sub-folder:
 
 ### Visual 1
-![graph1](./Phase-1-Project/blob/main/Phase%201%20Graphs/domesticvforeigngraph.png))
+![graph1](./Phase-1-Graphs/domesticvsforeigngraph.png/)
 
 ## Conclusions
 
