@@ -43,7 +43,15 @@ The merged dataset from IMDb and Box Office Mojo called ‘df’ was used to con
 
 Microsoft just opened a new studio and wants to know what kind of movie they should produce in order to generate max revenue. The baseline research showed that on average from 2010 to 2018, foreign revenue accounted for 60.8% of total revenue. The trendline plotted had a value of -0.02333x + 107.7, showing that foreign revenue values have remained consistent over time. Hence, the data shows that producing a movie that performs well with foreign audiences is a good strategy to generate max revenue. 
 
-[domesticvsforeign](domesticvforeigngraph.png)
+### Domestic vs Foreign Gross
+![Domestic vs Foreign Gross](domesticvforeigngraph.jpg)
+
+### Percent of Total Revenue from Domestic Gross
+![Domestic Gross](totalgross.jpg)
+
+### Percent of Total from Foreign Gross
+![Foreign Gross](totalforeign.jpg)
+
 
 The top three foreign grossing genres were ‘adventure’, ‘action’, and ‘comedy’— respectively accounting for 19.6%, 18.1%, and 13% of top performing movies in foreign markets. The top three foreign grossing studios were ‘20th Century Fox Studios’, ‘BV Animation Studios’, and ‘Universal Animation Studios,’ respectively accounting for 14.7%, 13%, and 11.9% of production for top performing movies in foreign markets. The top three performing movies in foreign markets from 2010 to 2018 were: 
 
@@ -55,8 +63,11 @@ The top three foreign grossing genres were ‘adventure’, ‘action’, and �
 
 Results are corroborated by the top three performing movies which were all produced by one of the top three performing studios in foreign markets. And all three top performing movies fell into a top performing genre category in foreign markets. Hence, the data shows that this model could with confidence benefit Microsoft Studios if implemented. 
 
+### Top Performing Genres in Foreign Markets
+![Top Genres](topperforminggenre.jpg)
 
-
+### Top Performing Studios in Foreign Markets 
+![Top Studios](https://github.com/SSGrasland/Phase-1-Project/blob/main/topperformingstudio.jpg)
 
 
 
@@ -85,11 +96,9 @@ For additional info, contact Salome Grasland at salome.grasland@gmail.com
 
 ## Repository Structure
 
-Describe the structure of your repository and its contents, for example:
-
 ```
 ├── README.md                           <- The top-level README for reviewers of this project
-├── dsc-phase1-project-template.ipynb   <- Narrative documentation of analysis in Jupyter notebook
+├── Phase 1 Project Notebook.ipynb      <- Narrative documentation of analysis in Jupyter notebook
 ├── DS_Project_Presentation.pdf         <- PDF version of project presentation
 ├── data                                <- Both sourced externally and generated from code
 └── images                              <- Both sourced externally and generated from code
