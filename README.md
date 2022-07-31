@@ -52,7 +52,7 @@ Results are corroborated by the top three performing movies which were all produ
 
 
 ### Visual 1
-![graph1]([./Phase-1-Graphs/domesticvsforeigngraph.png/](https://github.com/SSGrasland/Phase-1-Project/blob/main/.ipynb_checkpoints/Phase%201%20Project%20Notebook-checkpoint.ipynb))
+![graph1](/Graphs/top performing genre.png)
 
 ## Conclusions
 
@@ -76,9 +76,6 @@ Future considerations could also look at:
 ## For More Information
 
 For additional info, contact Salome Grasland at salome.grasland@gmail.com 
-
-
-For any additional questions, please contact **name & email, name & email**
 
 ## Repository Structure
 
