@@ -52,7 +52,7 @@ Results are corroborated by the top three performing movies which were all produ
 
 
 ### Visual 1
-![graph1](/Graphs/top performing genre.png)
+![graph1](top performing genre.png)
 
 ## Conclusions
 
