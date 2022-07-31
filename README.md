@@ -64,7 +64,7 @@ The top three foreign grossing genres were ‘adventure’, ‘action’, and �
 Results are corroborated by the top three performing movies which were all produced by one of the top three performing studios in foreign markets. And all three top performing movies fell into a top performing genre category in foreign markets. Hence, the data shows that this model could with confidence benefit Microsoft Studios if implemented. 
 
 ### Top Performing Genres in Foreign Markets
-![Top Genres](topperforminggenre.jpg)
+![Top Genres](topperforminggenres.jpg)
 
 ### Top Performing Studios in Foreign Markets 
 ![Top Studios](https://github.com/SSGrasland/Phase-1-Project/blob/main/topperformingstudio.jpg)
