@@ -99,7 +99,7 @@ For additional info, contact Salome Grasland at salome.grasland@gmail.com
 ```
 ├── README.md                           <- The top-level README for reviewers of this project
 ├── Phase 1 Project Notebook.ipynb      <- Narrative documentation of analysis in Jupyter notebook
-├── DS_Project_Presentation.pdf         <- PDF version of project presentation
+├── Phase 1 Project Presentation.pdf    <- PDF version of project presentation
 ├── data                                <- Both sourced externally and generated from code
 └── images                              <- Both sourced externally and generated from code
 ```
